@@ -1,10 +1,10 @@
 
-
-function HeroSection(){
+function Programs (){
+     
 
     return <div className="absolute top-32 text-black bg-blue-500">
-        HeroSection
+        Programs
     </div>
 }
 
-export default HeroSection
+export default Programs

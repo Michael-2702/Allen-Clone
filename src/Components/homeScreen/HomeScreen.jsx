@@ -6,7 +6,7 @@ function HomeScreen(){
 
     return <div>
         <TopBar />
-        <HeroSection />
+        
     </div>
 }
 

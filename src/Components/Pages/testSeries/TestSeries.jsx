@@ -1,10 +1,10 @@
 
-
-function HeroSection(){
+function TestSeries (){
+     
 
     return <div className="absolute top-32 text-black bg-blue-500">
-        HeroSection
+        Test Series
     </div>
 }
 
-export default HeroSection
+export default TestSeries
