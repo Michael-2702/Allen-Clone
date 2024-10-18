@@ -1,4 +1,5 @@
 import './styles.css'
+import { Link } from 'react-router-dom'
 
 function HeroSection(){
 
@@ -19,9 +20,17 @@ function HeroSection(){
                         What brings you to us today?
                     </p>
                     <div className="mt-5">
-                        <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">NEET</button>
-                        <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">JEE</button>
-                        <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl text-base">Grade 6-10</button>
+                        <div className="mt-5">
+                            <Link to="/exam/neet">
+                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">NEET</button>
+                            </Link>
+                            <Link to="/exam/jee">
+                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">JEE</button>
+                            </Link>
+                            <Link to="/exam/classes-6-10">
+                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl text-base">Grade 6-10</button>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                

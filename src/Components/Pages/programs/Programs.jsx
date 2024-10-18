@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Programs (){
      
@@ -17,11 +18,7 @@ function Programs (){
                         These programs offer a personalized study experience, guiding you 
                         throughout your journey on where to concentrate your efforts.
                         </p>
-                        <div className="mt-5">
-                            <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">NEET</button>
-                            <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">JEE</button>
-                            <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl text-base">Grade 6-10</button>
-                        </div>
+                       
                     </div>
                 
                 </div>
