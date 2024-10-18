@@ -7,7 +7,7 @@ function TopBar(){
     
     return <div className="flex justify-center bg-[#0f1825] text-white">
         <div className="h-[5rem] bg-[#0f1825] w-[73.5rem] flex gap-6 items-center">
-                <h1 className="text-4xl font-black hover:cursor-pointer">
+                <h1 className="text-4xl font-black hover:cursor-pointer mr-5">
                     <Link to="/">Allen</Link>
                 </h1>
 
