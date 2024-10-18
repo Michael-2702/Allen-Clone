@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { LuPhoneCall } from "react-icons/lu";
 
 function TopBar(){
     
@@ -64,7 +65,7 @@ function TopBar(){
                         <div className='hidden bg-[#245190] w-[14rem] h-26 absolute top-[4.9rem] left-[-0.6rem] group-hover:inline-block rounded-2xl group-hover:cursor-pointer' >
                             <div className='flex flex-col items-start p-4 gap-4'>
                             <Link to="/scholarships" className="text-white hover:text-blue-300">
-                                OADSAT
+                                ADSAT
                             </Link>
                             <a href="https://studyonline.tallentex.com/" target='_blank' className="text-white hover:text-blue-300">
                                 TALENTEX
@@ -92,28 +93,28 @@ function TopBar(){
                         </div>
                     </div>
                     <div className="hover:cursor-pointer relative group">
-                        <Link to="study-materials">
+
                             <div className='border-box py-7'> Study Materials </div>
-                        </Link>
+
                         <span className='hidden bg-blue-300 w-[7.4rem] h-[0.25rem] rounded-full absolute top-14 left-[-2px] group-hover:inline-block'></span>
                         <div className='hidden bg-[#245190] w-[14rem] h-64 absolute top-[4.9rem] left-[-0.6rem] group-hover:inline-block rounded-2xl group-hover:cursor-pointer' >
                             <div className='flex flex-col items-start p-4 gap-4'>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/jee" className="text-white hover:text-blue-300">
                                     Jee Main
                                 </Link>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/jee" className="text-white hover:text-blue-300">
                                     Jee Advance
                                 </Link>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/neet" className="text-white hover:text-blue-300">
                                     Neet
                                 </Link>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/jee" className="text-white hover:text-blue-300">
                                     Ncert Solution
                                 </Link>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/neet" className="text-white hover:text-blue-300">
                                     CBSE
                                 </Link>
-                                <Link to="/study-materials" className="text-white hover:text-blue-300">
+                                <Link to="/exam/jee" className="text-white hover:text-blue-300">
                                     Olympiad
                                 </Link>
                                 
@@ -124,8 +125,8 @@ function TopBar(){
                 </div>
 
                 <div className="flex relative left-[23rem] gap-6">
-                    <div className="bg-white text-[#0f1825] py-2 px-3 rounded-full hover:cursor-pointer ">
-                        Talk to us
+                    <div className="bg-white text-[#0f1825] py-2 px-5 rounded-full hover:cursor-pointer relative">
+                      <span className='absolute right-24 top-3' > <LuPhoneCall /> </span> <span className='text-white'>all</span> Talk to us 
                     </div>
                     <div className="border py-2 px-4 rounded-full hover:cursor-pointer hover:bg-[#6b7c8c] ">
                         Login

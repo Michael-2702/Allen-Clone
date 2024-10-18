@@ -4,7 +4,7 @@ function Programs (){
 
     return <div className="absolute w-full h-full top-20 text-white bg-[#0f1825]">
             <div className="w-[1080px] h-[450px]  text-white mx-auto my-0 flex">
-                <div className="w-[470px] flex flex-col justify-evenly">
+                <div className="w-[570px] flex flex-col justify-evenly">
                     <h3 className="text-4xl font-bold">
                     Online Programs
                     </h3>

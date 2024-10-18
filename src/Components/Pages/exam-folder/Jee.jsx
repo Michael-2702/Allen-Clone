@@ -15,7 +15,7 @@ function Jee (){
             <span className="font-thin"> {">"} </span> 
             <span className="font-thin">JEE</span>
         </div>
-        <div className="w-[1080px] h-[450px] relative top-32  text-white mx-auto my-0 flex">
+        <div className="w-[1080px] h-[450px] relative top-24  text-white mx-auto my-0 flex">
             <div className="w-[570px] flex flex-col gap-8">
                 <h3 className="text-4xl font-bold">
                 JEE Online Coaching
