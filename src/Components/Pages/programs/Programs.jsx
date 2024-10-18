@@ -3,7 +3,7 @@ function Programs (){
      
 
     return <div className="absolute w-full h-full top-20 text-white bg-[#0f1825]">
-            <div className="w-[940px] h-[450px]  text-white mx-auto my-0 flex">
+            <div className="w-[1080px] h-[450px]  text-white mx-auto my-0 flex">
                 <div className="w-[470px] flex flex-col justify-evenly">
                     <h3 className="text-4xl font-bold">
                     Online Programs
@@ -25,9 +25,9 @@ function Programs (){
                     </div>
                 
                 </div>
-                <div className="w-[470px]">
-
-                </div>
+                <div className="w-[470px] relative left-28 top-24">
+                     <img className="w-72" src="https://res.cloudinary.com/dpzpn3dkw/image/upload/v1712148519/online_ultimate_programs_1_oummbv.webp" />
+            </div>
         </div>
     </div>
 }
