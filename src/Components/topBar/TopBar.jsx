@@ -6,13 +6,13 @@ function TopBar(){
 
 
     
-    return <div className="flex justify-center bg-[#0f1825] text-white">
+    return <div className="flex justify-center bg-[#0f1825] text-white ">
         <div className="h-[5rem] bg-[#0f1825] w-[73.5rem] flex gap-6 items-center">
-                <h1 className="text-4xl font-black hover:cursor-pointer mr-5">
+                <h1 className="text-4xl font-black hover:cursor-pointer lg:mr-5 md:ml-6">
                     <Link to="/">Allen</Link>
                 </h1>
 
-                <div className="flex gap-6">
+                <div className="flex gap-6 md:hidden sm:hidden">
 
                     
                     <div className="hover:cursor-pointer relative group">
@@ -124,7 +124,7 @@ function TopBar(){
 
                 </div>
 
-                <div className="flex relative left-[23rem] gap-6">
+                <div className="flex relative left-[23rem] sm:left-[20rem] gap-6">
                     <div className="bg-white text-[#0f1825] py-2 px-5 rounded-full hover:cursor-pointer relative">
                       <span className='absolute right-24 top-3' > <LuPhoneCall /> </span> <span className='text-white'>all</span> Talk to us 
                     </div>

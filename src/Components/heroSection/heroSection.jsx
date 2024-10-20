@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 
 function HeroSection(){
 
-    return <div className="absolute w-full h-full top-14 text-white bg-[#0f1825]">
-        <div className="w-[1050px] h-[180px] mx-auto my-0 relative top-16">
+    return <div className="absolute lg:w-full lg:h-full md:w-screen sm:w-screen sm:h-screen md:h-screen top-14 text-white bg-[#0f1825]">
+        <div className="lg:w-[67rem] md:w-[650px] sm:w-[550px] lg:h-[180px] md:h-[200px] mx-auto my-0 relative lg:top-16 md:top-6 sm:top-6">
             <a href="https://www.tallentex.com/tex2025/userpanel/register?utm_source=AD&utm_medium=referral&utm_campaign=txreg_ADweb" target="_blank">
                 <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1280,f_auto,q_auto/v1729019503/sg9nmeh16atrkgv9tb7k.png?_upload_ref=ic_img_tool" />
             </a>
         </div>
-       <div className="w-[940px] h-[450px]  text-white mx-auto my-0 flex">
-            <div className="w-[470px] flex flex-col justify-evenly">
+       <div className="lg:w-[940px] lg:h-[450px] md:h-full md:w-[40rem] sm:mt-36 sm:w-full sm:h-full text-white mx-auto my-0 lg:flex md:flex-col md:justify-center sm:flex-col ">
+            <div className="w-[470px] flex flex-col justify-evenly md:ml-48 sm:ml-52">
                 <h3 className="text-4xl font-bold">
                     Your Dream. <br></br>
                     Our Expertise.
@@ -35,8 +35,8 @@ function HeroSection(){
                 </div>
                
             </div>
-            <section className="container">
-                <div className="slider-wrapper">
+            <div className="container">
+                <div className="slider-wrapper md:mr-48 sm:mr-40">
                     <div class="slider">
                         <img id="slide-1" className='w-2' src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1729249760%2Fu_c_1_t79muq.webp&w=828&q=75" />
                         <img id="slide-2" src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1729249954%2Fu_c_2_tjpr1s.webp&w=828&q=75" />
@@ -50,7 +50,7 @@ function HeroSection(){
                         <a href="#slide-4"></a>
                     </div>
                 </div>
-            </section>
+            </div>
        </div>
     </div>
 }
