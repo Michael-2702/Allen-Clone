@@ -8,11 +8,11 @@ function TopBar(){
     
     return <div className="flex justify-center bg-[#0f1825] text-white ">
         <div className="h-[5rem] bg-[#0f1825] w-[73.5rem] flex gap-6 items-center">
-                <h1 className="text-4xl font-black hover:cursor-pointer lg:mr-5 md:ml-6">
+                <h1 className="text-4xl font-black hover:cursor-pointer lg:mr-5 md:ml-6 sm:ml-6">
                     <Link to="/">Allen</Link>
                 </h1>
 
-                <div className="flex gap-6 md:hidden sm:hidden">
+                <div className="lg:flex gap-6 md:hidden sm:hidden">
 
                     
                     <div className="hover:cursor-pointer relative group">

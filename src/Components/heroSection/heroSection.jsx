@@ -9,11 +9,11 @@ function HeroSection(){
                 <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1280,f_auto,q_auto/v1729019503/sg9nmeh16atrkgv9tb7k.png?_upload_ref=ic_img_tool" />
             </a>
         </div>
-       <div className="lg:w-[940px] lg:h-[450px] md:h-full md:w-[40rem] sm:mt-36 sm:w-full sm:h-full text-white mx-auto my-0 lg:flex md:flex-col md:justify-center sm:flex-col ">
-            <div className="w-[470px] flex flex-col justify-evenly md:ml-48 sm:ml-52">
+       <div className="lg:w-[1180px] lg:h-[500px] md:h-full md:w-[40rem] sm:mt-36 sm:w-full sm:h-full text-white mx-auto my-0 lg:flex lg:flex-row lg:gap-[12rem] lg:relative lg:right-28 lg:bottom-44 md:flex-col md:justify-center md:mt-0 sm:flex-col xl:top-8">
+            <div className="w-[440px overflow-hidden flex flex-col justify-evenly  md:h-[350px] md:ml-48 sm:ml-52">
                 <h3 className="text-4xl font-bold">
-                    Your Dream. <br></br>
-                    Our Expertise.
+                    Your Dream. Our<br></br>
+                     Expertise.
                 </h3>
                 <div >
                     <p>
@@ -22,20 +22,20 @@ function HeroSection(){
                     <div className="mt-5">
                         <div className="mt-5">
                             <Link to="/exam/neet">
-                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">NEET</button>
+                                <span className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">NEET</span>
                             </Link>
                             <Link to="/exam/jee">
-                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">JEE</button>
+                                <span className="border-2 border-blue-300 px-4 py-2 rounded-3xl mr-3 text-base">JEE</span>
                             </Link>
                             <Link to="/exam/classes-6-10">
-                                <button className="border-2 border-blue-300 px-4 py-2 rounded-3xl text-base">Grade 6-10</button>
+                                <span className="border-2 border-blue-300 px-4 py-2 rounded-3xl text-base">Grade 6-10</span>
                             </Link>
                         </div>
                     </div>
                 </div>
                
             </div>
-            <div className="container">
+            <div className="container overflow-hidden lg:w-[450px] md:mt-14">
                 <div className="slider-wrapper md:mr-48 sm:mr-40">
                     <div class="slider">
                         <img id="slide-1" className='w-2' src="https://allen.in/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpzpn3dkw%2Fimage%2Fupload%2Fv1729249760%2Fu_c_1_t79muq.webp&w=828&q=75" />
