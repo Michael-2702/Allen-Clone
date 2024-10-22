@@ -6,13 +6,13 @@ function TopBar(){
 
 
     
-    return <div className="flex justify-center bg-[#0f1825] text-white ">
-        <div className="h-[5rem] bg-[#0f1825] w-[73.5rem] flex gap-6 items-center">
-                <h1 className="text-4xl font-black hover:cursor-pointer lg:mr-5 md:ml-6 sm:ml-6">
+    return <div className="lg:flex overflow-hidden h-[30rem] xl:w-full 2xl:w-full lg:justify-center w-full bg-[#0f1825] text-white ">
+        <div className="h-[5rem] bg-[#0f1825] lg:w-[73.5rem]  flex gap-6 items-center">
+                <h1 className="text-4xl font-black hover:cursor-pointer ml-5 lg:mr-5 md:ml-6 sm:ml-6">
                     <Link to="/">Allen</Link>
                 </h1>
 
-                <div className="lg:flex gap-6 md:hidden sm:hidden">
+                <div className="lg:flex hidden gap-6 md:hidden sm:hidden">
 
                     
                     <div className="hover:cursor-pointer relative group">
@@ -23,7 +23,7 @@ function TopBar(){
                         
                         <span className="hidden bg-blue-300 w-[3.2rem] h-[0.25rem] rounded-full absolute top-14 left-[-2px] group-hover:inline-block"></span>
 
-                        <div className="hidden group-hover:flex  absolute top-[4.9rem] left-[-0.6rem] w-[14rem] h-36 bg-[#245190] rounded-2xl flex-col items-start p-4 gap-4 z-20 group-hover:cursor-pointer">
+                        <div className="hidden group-hover:flex absolute top-[4.9rem] left-[-0.6rem] w-[14rem] lg h-36 bg-[#245190] rounded-2xl flex-col items-start p-4 gap-4 z-48 group-hover:cursor-pointer">
                             <Link to="/exam/neet" className="text-white hover:text-blue-300 hover:cursor-pointer">
                                 <p>Neet</p> 
                             </Link>
@@ -124,7 +124,7 @@ function TopBar(){
 
                 </div>
 
-                <div className="flex relative left-[23rem] sm:left-[20rem] gap-6">
+                <div className="lg:flex sm:flex md:flex xl:flex hidden relative lg:right-[7rem] lg:left-[15rem] xl:left-[15rem] sm:left-[17rem] gap-6">
                     <div className="bg-white text-[#0f1825] py-2 px-5 rounded-full hover:cursor-pointer relative">
                       <span className='absolute right-24 top-3' > <LuPhoneCall /> </span> <span className='text-white'>all</span> Talk to us 
                     </div>

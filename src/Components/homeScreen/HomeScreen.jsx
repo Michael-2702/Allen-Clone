@@ -4,7 +4,7 @@ import TopBar from "../topBar/TopBar"
 
 function HomeScreen(){
 
-    return <div>
+    return <div className="z-48">
         <TopBar />
         
     </div>
