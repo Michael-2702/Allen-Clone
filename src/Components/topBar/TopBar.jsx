@@ -124,7 +124,7 @@ function TopBar(){
 
                 </div>
 
-                <div className="lg:flex sm:flex md:flex xl:flex hidden relative lg:right-[7rem] lg:left-[15rem] xl:left-[15rem] sm:left-[17rem] gap-6">
+                <div className="lg:flex sm:flex md:flex xl:flex hidden relative lg:right-[7rem] lg:left-[15rem] xl:left-[15rem] md:right-[20rem] sm:left-[17rem] gap-6">
                     <div className="bg-white text-[#0f1825] py-2 px-5 rounded-full hover:cursor-pointer relative">
                       <span className='absolute right-24 top-3' > <LuPhoneCall /> </span> <span className='text-white'>all</span> Talk to us 
                     </div>
