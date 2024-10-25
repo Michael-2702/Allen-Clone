@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Neet (){
      
 
-    return <div className="absolute w-full h-full top-20 text-white bg-[#0f1825]">
-        <div className="flex gap-4 relative left-44 top-12">
+    return <div className="absolute w-screen h-screen overflow-clip top-20 text-white bg-[#0f1825]">
+        <div className="flex gap-4 relative left-44 top-12 lg:left-[20rem] 2xl:left-[23rem]  xl:left-[7.7rem] ">
             <Link to={"/"}>
                 <span className="font-thin"> Home </span> 
             </Link>
@@ -15,7 +15,7 @@ function Neet (){
             <span className="font-thin"> {">"} </span> 
             <span className="font-thin">Neet</span>
         </div>
-        <div className="w-[1080px] h-[450px]  text-white mx-auto my-0 flex">
+        <div className="w-[1080px] h-[450px] relative text-white mx-auto my-0 flex flex-col lg:flex-row xl:flex-row 2xl:flex-row md:relative md:left-[8rem] sm:relative sm:left-[6rem] ">
             
             <div className="w-[570px] flex flex-col gap-8 relative top-20 ">
                 <h3 className="text-4xl font-bold">
